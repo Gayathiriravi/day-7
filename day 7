@@ -1,0 +1,7 @@
+a=list(map(int,input().strip().split()))
+inl=0
+exl=0
+for i in a:
+    n=max(inl,exl)
+    inl=exl+1
+    print(max(inl,exl))
